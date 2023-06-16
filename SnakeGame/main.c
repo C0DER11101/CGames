@@ -115,10 +115,10 @@ int main(void)
 
 	srand(time(NULL));
 	int num=1+(rand()%10);
-	int length=5; // initial length of the snake
+	int length=5; // Hissy's initial length
 	system("clear");
 	int move;
-	snake hissy[100]; // snake Hissy's initial length!
+	snake hissy[100];
 	load(size); // loading...
 	boundary(size);
 	initSnake(hissy, size, length);
